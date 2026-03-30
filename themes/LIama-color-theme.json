@@ -3,25 +3,25 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "namespace": "#a6a3a3", // [基準] 知覚明度 (L*) = 15% アップから微調整
-    "property": "#a6a3a3", // [基準] 知覚明度 (L*) = 15% アップから微調整
-    "class": "#4b8c58", // [補正] 彩度による明るさを抑えるため L* = 54% へ
-    "struct": "#4b8c58", // [補正] L* = 54%
-    "type": "#4b8c58", // [補正] L* = 54%
-    "enum": "#4b8c58", // [補正] L* = 54%
+    "namespace": "#8d8a8a", // [最終調整] 知覚明度 (L*) = 57%
+    "property": "#8d8a8a", // [最終調整] L* = 57%
+    "class": "#50955e", // [知覚補正] L* = 56% (彩度による浮きを抑制)
+    "struct": "#50955e", // [知覚補正] L* = 56%
+    "type": "#50955e", // [知覚補正] L* = 56%
+    "enum": "#50955e", // [知覚補正] L* = 56%
     "enumMember": {
-      "foreground": "#a6a3a3"
+      "foreground": "#8d8a8a"
     },
     "variable.constant": {
-      "foreground": "#a86a42" // [補正] H-K効果による眩しさを抑えるため L* = 50% へ
+      "foreground": "#af7046" // [知覚補正] L* = 52% (暖色の進出性を抑制)
     },
     "variable.defaultLibrary": {
-      "foreground": "#817e5a" // [補正] 黄色は非常に明るく感じるため L* = 53% へ
+      "foreground": "#89855f" // [知覚補正] L* = 55% (黄色の眩しさを抑制)
     }
   },
   "colors": {
     "editor.background": "#1e1e1e",
-    "editor.foreground": "#a6a3a3", // 知覚的明度 (L*) = 55%
+    "editor.foreground": "#8d8a8a", // 知覚明度 (L*) = 57%
     // --- 背景色 ---
     "sideBar.background": "#1e1e1e",
     "activityBar.background": "#1e1e1e",
@@ -34,21 +34,21 @@
     "titleBar.inactiveBackground": "#1e1e1e",
     "editorWidget.background": "#252525",
     "quickInput.background": "#252525",
-    "quickInput.foreground": "#929292",
+    "quickInput.foreground": "#949494",
     "quickInputList.focusBackground": "#333333",
-    "quickInputList.focusForeground": "#929292",
+    "quickInputList.focusForeground": "#949494",
     "breadcrumb.background": "#1e1e1e",
     "menu.background": "#252525",
     "menu.selectionBackground": "#333333",
-    "menu.selectionForeground": "#929292",
+    "menu.selectionForeground": "#949494",
     "menu.separatorBackground": "#383838",
     // --- 通知・エラー表示 ---
     "notifications.background": "#252525",
-    "notifications.foreground": "#929292",
+    "notifications.foreground": "#949494",
     "notifications.border": "#383838",
-    "notificationsErrorIcon.foreground": "#af6868",
-    "notificationsWarningIcon.foreground": "#a69460",
-    "notificationsInfoIcon.foreground": "#6496a8",
+    "notificationsErrorIcon.foreground": "#af7272",
+    "notificationsWarningIcon.foreground": "#89855f",
+    "notificationsInfoIcon.foreground": "#5e8d9e",
     // --- 境界線 ---
     "sideBar.border": "#282828",
     "activityBar.border": "#282828",
@@ -57,68 +57,68 @@
     "editorGroup.border": "#282828",
     "editorWidget.border": "#282828",
     "tab.border": "#1e1e1e",
-    "tab.activeBorder": "#a6a3a3",
+    "tab.activeBorder": "#8d8a8a",
     "tab.activeBorderTop": "#1e1e1e",
     // --- UI文字色 ---
-    "sideBar.foreground": "#929292",
-    "statusBar.foreground": "#858585",
-    "tab.activeForeground": "#929292",
-    "tab.inactiveForeground": "#858585",
-    "panelTitle.activeForeground": "#929292",
-    "panelTitle.inactiveForeground": "#858585",
-    "titleBar.activeForeground": "#929292",
-    "titleBar.inactiveForeground": "#747474",
-    "menu.foreground": "#929292",
-    "descriptionForeground": "#858585",
+    "sideBar.foreground": "#949494",
+    "statusBar.foreground": "#888888",
+    "tab.activeForeground": "#949494",
+    "tab.inactiveForeground": "#888888",
+    "panelTitle.activeForeground": "#949494",
+    "panelTitle.inactiveForeground": "#888888",
+    "titleBar.activeForeground": "#949494",
+    "titleBar.inactiveForeground": "#787878",
+    "menu.foreground": "#949494",
+    "descriptionForeground": "#888888",
     // --- ボタン・アクセント ---
-    "button.background": "#8e729a", // [補正] 紫の彩度を考慮し L* = 53%
+    "button.background": "#9578a1", // [知覚補正] 紫系の L* = 55%
     "button.foreground": "#1e1e1e",
-    "button.hoverBackground": "#a083ad",
-    "badge.background": "#8e729a",
+    "button.hoverBackground": "#a384b1",
+    "badge.background": "#9578a1",
     "badge.foreground": "#1e1e1e",
-    "activityBarBadge.background": "#8e729a",
+    "activityBarBadge.background": "#9578a1",
     "activityBarBadge.foreground": "#1e1e1e",
-    "textLink.foreground": "#8e729a",
-    "textLink.activeForeground": "#a6a3a3",
-    "inputOption.activeBorder": "#8e729a",
+    "textLink.foreground": "#9578a1",
+    "textLink.activeForeground": "#8d8a8a",
+    "inputOption.activeBorder": "#9578a1",
     // --- その他UI ---
     "button.secondaryBackground": "#222222",
-    "button.secondaryForeground": "#929292",
+    "button.secondaryForeground": "#949494",
     "button.secondaryHoverBackground": "#282828",
     "focusBorder": "#282828",
     "input.background": "#2a2a2a",
-    "input.foreground": "#929292",
+    "input.foreground": "#949494",
     "input.border": "#454545",
     "dropdown.background": "#1e1e1e",
-    "dropdown.foreground": "#929292",
+    "dropdown.foreground": "#949494",
     "dropdown.border": "#282828",
     "checkbox.background": "#1e1e1e",
-    "checkbox.foreground": "#929292",
+    "checkbox.foreground": "#949494",
     "checkbox.border": "#282828",
-    "gitDecoration.modifiedResourceForeground": "#929292",
-    "gitDecoration.untrackedResourceForeground": "#929292",
-    "gitDecoration.addedResourceForeground": "#929292",
-    "gitDecoration.conflictingResourceForeground": "#af6868",
-    "gitDecoration.deletedResourceForeground": "#af6868",
+    "gitDecoration.modifiedResourceForeground": "#949494",
+    "gitDecoration.untrackedResourceForeground": "#949494",
+    "gitDecoration.addedResourceForeground": "#949494",
+    "gitDecoration.conflictingResourceForeground": "#af7272",
+    "gitDecoration.deletedResourceForeground": "#af7272",
     "gitDecoration.ignoredResourceForeground": "#555555",
-    "icon.foreground": "#747474",
+    "icon.foreground": "#787878",
     "tree.indentGuidesStroke": "#282828",
     "tree.inactiveIndentGuidesStroke": "#222222",
     "statusBarItem.prominentBackground": "#1e1e1e",
-    "statusBarItem.prominentForeground": "#858585",
+    "statusBarItem.prominentForeground": "#888888",
     "statusBarItem.remoteBackground": "#1e1e1e",
-    "statusBarItem.remoteForeground": "#858585",
+    "statusBarItem.remoteForeground": "#888888",
     "statusBarItem.hoverBackground": "#282828",
-    "activityBar.foreground": "#929292",
+    "activityBar.foreground": "#949494",
     "activityBar.inactiveForeground": "#555555",
     "activityBar.activeBorder": "#1e1e1e",
-    "list.activeSelectionForeground": "#929292",
-    "list.inactiveSelectionForeground": "#7b7b7b",
-    "list.hoverForeground": "#929292",
-    "list.highlightForeground": "#929292",
-    "breadcrumb.foreground": "#858585",
-    "breadcrumb.focusForeground": "#929292",
-    "breadcrumb.activeSelectionForeground": "#929292",
+    "list.activeSelectionForeground": "#949494",
+    "list.inactiveSelectionForeground": "#7e7e7e",
+    "list.hoverForeground": "#949494",
+    "list.highlightForeground": "#949494",
+    "breadcrumb.foreground": "#888888",
+    "breadcrumb.focusForeground": "#949494",
+    "breadcrumb.activeSelectionForeground": "#949494",
     // --- エディタハイライト ---
     "editor.lineHighlightBackground": "#ffffff08",
     "editor.lineHighlightBorder": "#00000000",
@@ -127,23 +127,23 @@
     "editor.selectionHighlightBackground": "#ffffff15",
     "editor.wordHighlightBackground": "#ffffff1a",
     "editor.wordHighlightStrongBackground": "#ffffff22",
-    "editor.findMatchBackground": "#a86a4260",
-    "editor.findMatchHighlightBackground": "#a86a4230",
+    "editor.findMatchBackground": "#af704660",
+    "editor.findMatchHighlightBackground": "#af704630",
     "editorBracketMatch.background": "#ffffff12",
     "editorBracketMatch.border": "#ffffff30",
-    "editorLineNumber.foreground": "#4c4c4c",
-    "editorLineNumber.activeForeground": "#a6a3a3",
-    "editorCursor.foreground": "#a6a3a3",
-    "editorError.foreground": "#af6868",
-    "editorWarning.foreground": "#a69460",
-    "editorInfo.foreground": "#6496a8",
-    "editorBracketHighlight.foreground1": "#6496a8",
-    "editorBracketHighlight.foreground2": "#a29e71",
-    "editorBracketHighlight.foreground3": "#8e729a",
-    "editorBracketHighlight.foreground4": "#6496a8",
-    "editorBracketHighlight.foreground5": "#a29e71",
-    "editorBracketHighlight.foreground6": "#8e729a",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#af6868"
+    "editorLineNumber.foreground": "#505050",
+    "editorLineNumber.activeForeground": "#8d8a8a",
+    "editorCursor.foreground": "#8d8a8a",
+    "editorError.foreground": "#af7272",
+    "editorWarning.foreground": "#89855f",
+    "editorInfo.foreground": "#5e8d9e",
+    "editorBracketHighlight.foreground1": "#5e8d9e",
+    "editorBracketHighlight.foreground2": "#89855f",
+    "editorBracketHighlight.foreground3": "#9578a1",
+    "editorBracketHighlight.foreground4": "#5e8d9e",
+    "editorBracketHighlight.foreground5": "#89855f",
+    "editorBracketHighlight.foreground6": "#9578a1",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#af7272"
   },
   "tokenColors": [
     {
@@ -155,7 +155,7 @@
         "source"
       ],
       "settings": {
-        "foreground": "#a6a3a3" // L* = 55%
+        "foreground": "#8d8a8a" // L* = 57%
       }
     },
     {
@@ -166,7 +166,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#598696" // [補正] L* = 54%
+        "foreground": "#5e8d9e" // [補正] L* = 56%
       }
     },
     {
@@ -176,17 +176,17 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#4b8c58" // [補正] L* = 54%
+        "foreground": "#50955e" // [補正] L* = 56%
       }
     },
     {
-      "name": "4. Strings",
+      "name": "#4. Strings",
       "scope": [
         "string",
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#9a7554" // [補正] 暖色かつ中程度の彩度を考慮し L* = 52%
+        "foreground": "#a47b59" // [補正] L* = 54%
       }
     },
     {
@@ -199,7 +199,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#8e729a" // [補正] 高彩度の紫を考慮し L* = 53%
+        "foreground": "#9578a1" // [補正] L* = 55%
       }
     },
     {
@@ -208,7 +208,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#a26f6f" // [補正] 赤系の進出性を抑えるため L* = 51%
+        "foreground": "#a97272" // [補正] L* = 53%
       }
     },
     {
@@ -217,7 +217,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#a6a3a3"
+        "foreground": "#8d8a8a"
       }
     },
     {
@@ -226,7 +226,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#817e5a" // [補正] 演算子(黄色)を L* = 53% に抑制
+        "foreground": "#89855f" // [補正] L* = 55%
       }
     },
     {
@@ -236,7 +236,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6b6b6b" // L* = 45%
+        "foreground": "#707070" // L* = 47% (テキストとの差を10%維持)
       }
     }
   ]
