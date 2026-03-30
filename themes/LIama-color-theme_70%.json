@@ -1,0 +1,167 @@
+{
+  "name": "Lighter Dark - Zen Perceptual 70",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "namespace": "#b1aeae",
+    "property": "#b1aeae",
+    "class": "#62a770",
+    "struct": "#62a770",
+    "type": "#62a770",
+    "enum": "#62a770",
+    "enumMember": {
+      "foreground": "#b1aeae"
+    },
+    "variable.constant": {
+      "foreground": "#bc7f7f"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#ada97c"
+    }
+  },
+  "colors": {
+    "editor.background": "#212121",
+    "editor.foreground": "#b1aeae",
+    "sideBar.background": "#212121",
+    "activityBar.background": "#212121",
+    "statusBar.background": "#212121",
+    "panel.background": "#212121",
+    "tab.activeBackground": "#212121",
+    "tab.inactiveBackground": "#212121",
+    "editorGroupHeader.tabsBackground": "#212121",
+    "titleBar.activeBackground": "#212121",
+    "titleBar.inactiveBackground": "#212121",
+    "editorWidget.background": "#282828",
+    "quickInput.background": "#282828",
+    "tab.activeBorder": "#b1aeae",
+    "editorLineNumber.activeForeground": "#b1aeae",
+    "editorCursor.foreground": "#b1aeae",
+    "editorError.foreground": "#bc7f7f",
+    "editorWarning.foreground": "#ada97c",
+    "editorInfo.foreground": "#6ca1b3",
+    "editorBracketHighlight.foreground1": "#6ca1b3",
+    "editorBracketHighlight.foreground2": "#ada97c",
+    "editorBracketHighlight.foreground3": "#a184ae",
+    "editorBracketHighlight.foreground4": "#6ca1b3",
+    "editorBracketHighlight.foreground5": "#ada97c",
+    "editorBracketHighlight.foreground6": "#a184ae",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#bc7f7f",
+    "sideBar.foreground": "#b1aeae",
+    "sideBarSectionHeader.foreground": "#b1aeae",
+    "sideBarTitle.foreground": "#b1aeae",
+    "tab.activeForeground": "#b1aeae",
+    "tab.inactiveForeground": "#b1aeae",
+    "list.activeSelectionForeground": "#b1aeae",
+    "list.inactiveSelectionForeground": "#b1aeae",
+    "list.hoverForeground": "#b1aeae",
+    "quickInput.foreground": "#b1aeae",
+    "statusBar.foreground": "#797979",
+    "activityBar.foreground": "#b1aeae",
+    "activityBar.inactiveForeground": "#797979",
+    "titleBar.activeForeground": "#b1aeae",
+    "menu.foreground": "#b1aeae",
+    "menubar.selectionForeground": "#b1aeae",
+    "panelTitle.activeForeground": "#b1aeae",
+    "panelTitle.inactiveForeground": "#b1aeae",
+    "panel.foreground": "#b1aeae",
+    "terminal.background": "#212121",
+    "terminal.foreground": "#b1aeae",
+    "terminal.ansiBlack": "#212121",
+    "terminal.ansiBrightBlack": "#797979",
+    "terminal.ansiRed": "#ec9999",
+    "terminal.ansiBrightRed": "#ec9999",
+    "terminal.ansiGreen": "#22d18a",
+    "terminal.ansiBrightGreen": "#22d18a",
+    "terminal.ansiYellow": "#bfbf0a",
+    "terminal.ansiBrightYellow": "#bfbf0a",
+    "terminal.ansiBlue": "#88beff",
+    "terminal.ansiBrightBlue": "#88beff",
+    "terminal.ansiMagenta": "#ee9cee",
+    "terminal.ansiBrightMagenta": "#ee9cee",
+    "terminal.ansiCyan": "#15c6f3",
+    "terminal.ansiBrightCyan": "#15c6f3",
+    "terminal.ansiWhite": "#b1aeae",
+    "terminal.ansiBrightWhite": "#b1aeae"
+  },
+  "tokenColors": [
+    {
+      "name": "Base",
+      "scope": [
+        "variable",
+        "support.variable",
+        "text",
+        "source",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#b1aeae"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#6ca1b3"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword.control",
+        "meta.preprocessor",
+        "punctuation.definition.keyword",
+        "punctuation.definition.directive",
+        "punctuation.definition.tag",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#a184ae"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#bc916f"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#bc7f7f"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#797979"
+      }
+    },
+    {
+      "name": "C++ Standard Streams and Shift Operators",
+      "scope": [
+        "support.variable.mains.cpp",
+        "support.variable.mains.c",
+        "keyword.operator.shift.cpp",
+        "keyword.operator.shift.c"
+      ],
+      "settings": {
+        "foreground": "#ada97c"
+      }
+    }
+  ]
+}
