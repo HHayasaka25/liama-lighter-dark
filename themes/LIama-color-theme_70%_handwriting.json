@@ -51,27 +51,31 @@
 		// サイドバー（エクスプローラー、Gitなど。Ctrl+Bで表示を切り替えられる領域）
 		// =====================
 		"sideBar.background": "#212121",
-		"sidebar.foreground": "#b1aeae",
+		"sideBar.foreground": "#b1aeae",
 		"sidebar.SectionHeader.background": "#3e3e3e", // 後ほど決定
+		"sideBar.border": "#3e3e3e",
 		// ミニマップ（右側に表示されるコードの全体図）
 		// 特に設定しない
 		// =========================================
 		// Editor Groups & Tabs（開いているファイル一覧）
 		// =========================================
 		"tab.activeBackground": "#212121",
+		"tab.activeForeground": "#b1aeae",
 		"tab.inactiveBackground": "#212121",
+		"tab.inactiveForeground": "#ffffff",
 		"editorGroup.dropBackground": "#3e3e3e",
-		"tab.activeBoader": "#b1aeae",
+		"tab.activeBorder": "#b1aeae",
 		"tab.selectedForeground": "#b1aeae",
-		"tab.dropAndDropBoader": "#3e3e3e",
-		"tab.inActiveForeground": "#3e3e3e",
+		"tab.dropAndDropBorder": "#3e3e3e05",
+		"tab.inActiveForeground": "#ffffff",
 		// ==========================
 		//    パネル（統合ターミナル）
 		// ==========================
 		"panel.background": "#212121",
+		"panel.border": "#3e3e3e",
 		"panelTitle.activeForeground": "#b1aeae",
 		"panelTitle.inActiveForeground": "#3e3e3e",
-		"panelTitle.activeBoader": "#b1aeae",
+		"panelTitle.activeBorder": "#b1aeae",
 		"panelTitleBadge.background": "#796082",
 		"panelTitleBadge.foreground": "#212121",
 		// ===========================
@@ -79,6 +83,7 @@
 		// ===========================
 		"statusBar.background": "#212121",
 		"statusBar.foreground": "#b1aeae",
+		"statusBar.border": "#3e3e3e",
 		"statusBar.noFolderBackground": "#212121",
 		"statusBarItem.remoteBackground": "#212121",
 		"statusBarItem.remoteForeground": "#b1aeae",
@@ -88,8 +93,9 @@
 		//     アクティビティバー（左端のアイコンが縦に並んでいる領域）
 		// ===================================
 		"activityBar.background": "#212121",
-		"ActivityBarBadge.background": "#796082",
-		"ActivityBarBadge.foreground": "#212121",
+		"activityBarBadge.background": "#796082",
+		"activityBarBadge.foreground": "#b1aeae",
+		"activityBar.border": "#3e3e3e",
 		// ===================================
 		//     メニューバー（ファイル(F)など）
 		// ===================================
@@ -106,7 +112,7 @@
 		//     コマンドセンター
 		// =======================
 		"commandCenter.background": "#3e3e3e",
-		"commandCenter.boader": "#3e3e3e",
+		"commandCenter.border": "#3e3e3e",
 		// =======================
 		//     通知
 		// =======================
@@ -116,27 +122,26 @@
 		// =======================
 		"terminal.background": "#212121",
 		"terminal.foreground": "#b1aeae",
-		// 黒: システムログのタイムスタンプ、非アクティブなテキスト
-		"terminal.ansiBlack": "#383838",
-		// 赤: エラーメッセージ、git diff の削除行 (-)、壊れたリンク
-		"terminal.ansiRed": "#bc7f7f",
-		// 緑: 成功メッセージ、git diff の追加行 (+)、実行権限のあるファイル
-		"terminal.ansiGreen": "#62a770",
-		// 黄: 警告メッセージ、検索結果のハイライト、コマンドのオプション
-		"terminal.ansiYellow": "#ada97c",
-		// 青: ディレクトリ名 (ls)、プロンプトのホスト名、プライマリ情報
-		"terminal.ansiBlue": "#6ca1b3",
-		// マゼンタ: git のブランチ名、タグ名、特殊な実行ファイル
-		"terminal.ansiMagenta": "#a184ae",
-		// シアン: シンボリックリンク、URL、パスのセグメント
-		"terminal.ansiCyan": "#598798",
-		// 白: 標準的な出力テキスト、プロンプトのユーザー名
-		"terminal.ansiWhite": "#b1aeae",
 		// =================
 		//     ウィンドウ
 		// =================
 		"window.activeBorder": "#00000000",
-		"window.inActiveBorder": "#00000000"
+		"window.inActiveBorder": "#00000000",
+		// =================
+		//     その他
+		// =================
+		"terminalCommandDecoration.defaultBackground": "#797979",
+		"terminalCommandDecoration.successBackground": "#62a770",
+		"terminalCommandDecoration.errorBackground": "#bc7f7f",
+		"editorGutter.addedBackground": "#62a770",
+		"editorGutter.modifiedBackground": "#6ca1b3",
+		"editorGutter.deletedBackground": "#bc7f7f",
+		"gitDecoration.addedResourceForeground": "#62a770",
+		"gitDecoration.untrackedResourceForeground": "#62a770",
+		"gitDecoration.modifiedResourceForeground": "#6ca1b3",
+		"gitDecoration.deletedResourceForeground": "#bc7f7f",
+		"gitDecoration.ignoredResourceForeground": "#797979",
+		"gitDecoration.conflictingResourceForeground": "#a184ae"
 	},
 	"tokenColors": [
 		{
@@ -156,11 +161,31 @@
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"storage.type",
-				"storage.modifier"
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#6ca1b3"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": [
+				"storage.type",
+				"support.type",
+				"entity.name.type",
+				"keyword.type"
+			],
+			"settings": {
+				"foreground": "#62a770"
+			}
+		},
+		{
+			"name": "Modifier",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#a184ae"
 			}
 		},
 		{
