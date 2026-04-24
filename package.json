@@ -13,6 +13,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "LIama Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LIama-dark.json"
+      },
+      {
         "label": "LIama Dark Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/LIama-dark-soft.json"
