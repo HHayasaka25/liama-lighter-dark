@@ -1,6 +1,6 @@
 {
-  "name": "liama-lighter-dark",
-  "displayName": "LIama Lighter Dark",
+  "name": "liama-dark",
+  "displayName": "LIama Dark",
   "description": "Lighter dark theme by LIama",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "LIama",
+        "label": "LIama Dark Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/LIama-color-theme_70%_handwriting.json"
+        "path": "./themes/LIama-dark.json"
       }
     ]
   }
