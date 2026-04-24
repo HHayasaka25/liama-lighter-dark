@@ -1,5 +1,5 @@
 {
-	"name": "LIama Dark Soft",
+	"name": "LIama Dark",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -28,8 +28,8 @@
 	"colors": {
 		"editor.background": "#212121",
 		"editor.foreground": "#a8a5a5",
-		"editorLinenumber.foreground": "#3e3e3e",
-		"editorLinenumber.activeForeground": "#a8a5a5",
+		"editorLineNumber.foreground": "#3e3e3e",
+		"editorLineNumber.activeForeground": "#a8a5a5",
 		"editor.selectionBackground": "#3e3e3e",
 		"editorBracketHighlight.foreground1": "#689dae",
 		"editorBracketHighlight.foreground2": "#ada97c",
@@ -65,8 +65,8 @@
 		"statusBar.noFolderBackground": "#212121",
 		"statusBarItem.remoteBackground": "#2b2424",
 		"statusBarItem.remoteForeground": "#a8a5a5",
-		"statuBarItem.errorForeground": "#bc7f7f",
-		"statuBarItem.warningForeground": "#ada97c",
+		"statusBarItem.errorForeground": "#bc7f7f",
+		"statusBarItem.warningForeground": "#ada97c",
 		"activityBar.background": "#212121",
 		"activityBar.foreground": "#a8a5a5",
 		"activityBar.border": "#3e3e3e",
