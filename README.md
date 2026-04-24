@@ -1,16 +1,11 @@
-# liama-lighter-dark README
+# LIama Dark
+## Concept
+This theme reduces contrast between the background and text so that you can smoothly read the code  at a glance.
+In addition, I kept the lightness (L*) values of the text colors close to each other to maintain visual consistency.
 
-## Working with Markdown
+## Included Themes
+### LIama Dark
+This is the default theme adopt to normal IPS panels.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### LIama Dark Soft
+This is a theme for high-contrast panels (VA, OLED).
