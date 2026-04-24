@@ -9,3 +9,6 @@ This is the default theme adopt to normal IPS panels.
 
 ### LIama Dark Soft
 This is a theme for high-contrast panels (VA, OLED).
+
+## License
+This project is licensed under the MIT License.
