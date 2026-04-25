@@ -2,6 +2,7 @@
   "name": "liama-dark",
   "displayName": "LIama Dark",
   "description": "Lighter dark theme by LIama",
+  "publisher": "liama",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.110.0"
@@ -11,6 +12,11 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "LIama Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LIama-dark.json"
+      },
       {
         "label": "LIama Dark Soft",
         "uiTheme": "vs-dark",
