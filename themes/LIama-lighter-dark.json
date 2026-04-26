@@ -1,0 +1,204 @@
+{
+	"name": "LIama Lighter Dark",
+	"type": "dark",
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"enum": "#81cc92",
+		"keyword": "#cdabd8",
+		"modifier": "#cdabd8",
+		"variable": "#d8d5d5",
+		"parameter": "#d8d5d5",
+		"function": "#96c5d7",
+		"method": "#96c5d7",
+		"namespace": "#d8d5d5",
+		"property": "#d8d5d5",
+		"class": "#81cc92",
+		"struct": "#81cc92",
+		"type": "#81cc92",
+		"enumMember": {
+			"foreground": "#d8d5d5"
+		},
+		"variable.constant": {
+			"foreground": "#e5a7a6"
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#d2d3a3"
+		}
+	},
+	"colors": {
+		"editor.background": "#212121",
+		"editor.foreground": "#d8d5d5",
+		"editorLineNumber.foreground": "#616161",
+		"editorLineNumber.activeForeground": "#d1cece",
+		"editor.selectionBackground": "#616161",
+		"editorBracketHighlight.foreground1": "#96c5d7",
+		"editorBracketHighlight.foreground2": "#d2d3a3",
+		"editorBracketHighlight.foreground3": "#cdabd8",
+		"editorBracketHighlight.foreground4": "#96c5d7",
+		"editorBracketHighlight.foreground5": "#d2d3a3",
+		"editorBracketHighlight.foreground6": "#cdabd8",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#e5a7a6",
+		"editorError.foreground": "#e5a7a6",
+		"editorWarning.foreground": "#d2d3a3",
+		"selection.background": "#616161",
+		"sideBar.background": "#212121",
+		"sideBar.foreground": "#d8d5d5",
+		"sidebar.SectionHeader.background": "#616161",
+		"sideBar.border": "#616161",
+		"tab.activeBackground": "#212121",
+		"tab.activeForeground": "#d8d5d5",
+		"tab.inactiveBackground": "#212121",
+		"tab.inactiveForeground": "#d8d5d5",
+		"editorGroup.dropBackground": "#3e3e3e",
+		"tab.activeBorder": "#d1cece",
+		"tab.selectedForeground": "#d1cece",
+		"tab.dropAndDropBorder": "#3e3e3e05",
+		"panel.background": "#212121",
+		"panel.border": "#616161",
+		"panelTitle.activeForeground": "#d8d5d5",
+		"panelTitle.inActiveForeground": "#616161",
+		"panelTitle.activeBorder": "#d1cece",
+		"panelTitleBadge.foreground": "#414141",
+		"statusBar.background": "#212121",
+		"statusBar.foreground": "#d8d5d5",
+		"statusBar.border": "#616161",
+		"statusBar.noFolderBackground": "#212121",
+		"statusBarItem.remoteBackground": "#2b2424",
+		"statusBarItem.remoteForeground": "#d1cece",
+		"statusBarItem.errorForeground": "#e5a7a6",
+		"statusBarItem.warningForeground": "#d2d3a3",
+		"activityBar.background": "#212121",
+		"activityBar.foreground": "#d8d5d5",
+		"activityBar.border": "#616161",
+		"activityBarBadge.foreground": "#414141",
+		"activityBarBadge.background": "#b3b3b3",
+		"menu.background": "#2c2c2c",
+		"menu.foreground": "#d1cece",
+		"menu.selectionBackground": "#3e3e3e",
+		"menu.selectedForeground": "#d1cece",
+		"list.errorForeground": "#e5a7a6",
+		"titleBar.activeBackground": "#212121",
+		"titleBar.inActiveBackground": "#212121",
+		"commandCenter.background": "#3e3e3e",
+		"commandCenter.border": "#616161",
+		"notifications.background": "#2c2c2c",
+		"terminal.background": "#212121",
+		"terminal.foreground": "#d8d5d5",
+		"window.activeBorder": "#00000000",
+		"window.inActiveBorder": "#00000000",
+		"terminalCommandDecoration.defaultBackground": "#a0a0a0",
+		"terminalCommandDecoration.successBackground": "#81cc92",
+		"terminalCommandDecoration.errorBackground": "#e5a7a6",
+		"editorGutter.addedBackground": "#81cc92",
+		"editorGutter.modifiedBackground": "#96c5d7",
+		"editorGutter.deletedBackground": "#e5a7a6",
+		"gitDecoration.addedResourceForeground": "#81cc92",
+		"gitDecoration.untrackedResourceForeground": "#81cc92",
+		"gitDecoration.modifiedResourceForeground": "#96c5d7",
+		"gitDecoration.deletedResourceForeground": "#e5a7a6",
+		"gitDecoration.ignoredResourceForeground": "#a0a0a0",
+		"gitDecoration.conflictingResourceForeground": "#cdabd8"
+	},
+	"tokenColors": [
+		{
+			"name": "Base — variables, plain text, operators, punctuation",
+			"scope": [
+				"variable",
+				"support.variable",
+				"text",
+				"source",
+				"keyword.operator",
+				"punctuation.separator",
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#d8d5d5"
+			}
+		},
+		{
+			"name": "Keywords — control flow, declarations, preprocessor directives",
+			"scope": [
+				"keyword.control",
+				"keyword.declaration",
+				"storage.modifier",
+				"storage.type.function",
+				"punctuation.definition.directive",
+				"punctuation.definition.preprocessor",
+				"keyword.control.directive",
+				"keyword.control.import",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#cdabd8"
+			}
+		},
+		{
+			"name": "Types & Classes — primitives, built-ins, user-defined types",
+			"scope": [
+				"storage.type.primitive",
+				"storage.type.built-in",
+				"keyword.type",
+				"support.type",
+				"support.class",
+				"entity.name.type",
+				"entity.name.class",
+				"storage.type.namespace.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#81cc92"
+			}
+		},
+		{
+			"name": "Functions & Methods",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#96c5d7"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#e3ba95"
+			}
+		},
+		{
+			"name": "Numbers & Constants — numeric literals, true/false/null/nullptr",
+			"scope": [
+				"constant.numeric",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#e5a7a6"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#a0a0a0"
+			}
+		},
+		{
+			"name": "C++ Standard Streams and Shift Operators",
+			"scope": [
+				"support.variable.mains.cpp",
+				"support.variable.mains.c",
+				"keyword.operator.shift.cpp",
+				"keyword.operator.shift.c"
+			],
+			"settings": {
+				"foreground": "#d2d3a3"
+			}
+		}
+	]
+}

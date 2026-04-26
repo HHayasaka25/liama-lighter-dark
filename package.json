@@ -21,6 +21,11 @@
         "label": "LIama Dark Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/LIama-dark-soft.json"
+      },
+      {
+        "label": "LIama Lighter Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LIama-lighter-dark.json"
       }
     ]
   }
